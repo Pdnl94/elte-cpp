@@ -2,10 +2,11 @@
 #define LIST_H
 #include <iostream>
 
+template <T>
 class List {
 public:
     int data;
-    List* next = nullptr;	
+    List<T>* next = nullptr;	
 
 };
 

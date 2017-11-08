@@ -2,9 +2,9 @@
 #include "list.h"
 
 int main(int argc, const char* args[]) {
-	List list;
+	List<int> list;
 	list.data = 1;
-	List listSecond;
+	List<int> listSecond;
 	listSecond.data = 2;
 	list.next = &listSecond;
 
