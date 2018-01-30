@@ -1,0 +1,368 @@
+Barmi kerdes / keres / otlet / kritika merul fel, varom a
+schaumb kukac gmail com cimen.
+
+1. fejezet - idorendi csoport
+2. fejezet - temabeli csoport
+3. fejezet - megvalositando osztaly csoport
+
+1. fejezet :
+    2016/2017 osz:
+        sav_161220
+    2015/2016 tavasz:
+        rav_160701
+        aa_160624
+        le_160617
+        palg_160610
+        afv_160602
+        fmmap_160527
+        filtmap_160520
+    2015/2016 osz:
+        mapu_160126
+        mu_160118
+        ad_160112 /* a 89. vizsgamegoldas. juheeeee */
+        spl_160104
+        invmmap_151222
+        invmap_151218
+    2014/2015 tavasz:
+        uv_150702
+        pc_150625
+        predmset_150618
+        pq_150608
+        predstack_150601
+        pac_150529
+        aec_150521
+    2014/2015 osz :
+        si_150126
+        fullfv_150119
+        ffvec_150112
+        ffv_150105
+        cistr_141219
+    2013/2014 tavasz :
+        mst_140630
+        vcmvec_140623
+        pd_140616
+        pvec_140610
+        vcstr_140530
+        vcv_140526
+    2013/2014 osz :
+        pm_140127    /* deprecated */ - refaktoralast kovetel (attol meg jo)
+        pmatch_140120    /* deprecated */ - refaktoralast kovetel (attol meg jo)
+        fd_140113
+        match_140109    /* deprecated */ - refaktoralast kovetel (attol meg jo)
+        fv_131216
+    2012/2013 tavasz :
+        tm_130702
+        sm_130625
+        tram_130618
+        tam_130611
+        sam_130604
+        fam_130521
+    2012/2013 osz :
+        bstr_130129
+        rcs_130122
+        repstr_130115
+        palstr_130108
+        pstr_121218
+    2011/2012 tavasz :
+        mmmap_120704
+        mmv_120627
+        dir_120618
+        sta_120613
+        stat_120611
+        str_120606
+        safevec_120530
+    2011/2012 osz :
+        mset_120123
+        svec_120116
+        mls_120109
+        contmap_111220
+    2010/2011 tavasz :
+        setseq_110623
+        cl_110621
+        amap_110614
+        as_110608
+        al_110531
+    2010/2011 osz :
+        uvmap_110118
+        mscv_110111
+        cvec_110105
+        cv_101222
+    2009/2010 tavasz :
+        drs_100528
+        equ_100525
+        bidir_100521
+        bdm_100517
+    2009/2010 osz:
+        vm_100107
+        im_100103
+        cset_091228
+        multi_091228
+        cm_091222
+        cs_091221
+    2008/2009 tavasz:
+        pr_090523
+        vv_090521
+        ps_090518
+    2008/2009 osz:
+        ms_090105 
+        sq_081221 (stque mappaban)
+        am_081217
+    2007/2008 tavasz :
+        sq_080605 (sq mappaban)
+    2007/2008 osz : 
+        arr_080220 (zh0117 mappaban)
+        sl_080113 (zh0115 mappaban)
+        cg_080103 (zh0103 mappaban)
+        lg_080103 (zh0102 mappaban)
+        wg_071219 (zh1219 mappaban)
+        gr_071217 (zh1217 mappaban)
+    2006/2007 tavasz :
+        sl_070602
+        sv_070529
+    2006/2007 osz :
+        m_070114
+        as_070110
+        n_bag_070103
+        arr_061215
+    2005/2006 osz :
+        books_060217
+        hmap_060103
+        hash_051221
+
+2. fejezet :
+    template-fuggvenymegvalositasok:
+        palg_160610 (is_ make_ copy_ shift_ palindrome)
+    utilok, egy vagy tobb, mar letezo kontenert, tombot modositjak (csak referencia vagy pointer):
+        sav_161220
+        rav_160701
+        aa_160624
+        afv_160602
+        mapu_160126
+        mu_160118
+    dekorator (wrapper/csomagolo osztaly)
+        ad_160112 /* a 89. vizsgamegoldas. juheeeee */
+    (mas kontener elemeit) elnyelo strukturak:
+        spl_160104
+    ketiranyu strukturak:
+        pc_150625 (funktor szerinti elol-hatul beteves, parameter szerinti strukturaval)
+        predmset_150618 (funktor szerinti elol-hatul beteves, multiset viselkedes)
+        pq_150608 (funktor szerinti elol-hatul beteves, queue viselkedes)
+        predstack_150601 (funktor szerinti elol-hatul beteves, stack viselkedes)
+        pac_150529 (funktor szerinti elol-hatul beteves)
+        aec_150521 (valtakozo oldalu betevessel es kivevest tudo struktura)
+    mas tulajdonsaggal felruhazas:
+        fullfv_150119 (std::basic_string tulajdonsagokkal rendelkezo vector)
+        ffvec_150112 (std::basic_string tulajdonsagokkal rendelkezo vector)
+        ffv_150105 (std::list tulajdonsagokkal rendelkezo vector)
+    verziokezeles :
+        vcmvec_140623
+        vcstr_140530
+        vcv_140526
+    mintailleszteses / pattern :
+        pm_140127
+        pmatch_140120
+        match_140109
+    szuro / filter / szetvalogatas (funktoros):
+        fmmap_160527
+        filtmap_160520
+        pd_140616
+        pvec_140610
+        fd_140113
+        fv_131216
+        vm_100107
+        vv_090521
+    hatekony ( ritka / kulonleges / asszociativ ) matrix :
+        tm_130702
+        sm_130625
+        tram_130618
+        tam_130611
+        sam_130604
+        fam_130521
+        am_081217
+    string / basic_string megvalositasok :  
+        si_150126
+        cistr_141219 (case insensitive)
+	    bstr_130129
+        rcs_130122
+        repstr_130115
+        palstr_130108
+        pstr_121218
+    megfordithato struktura :
+        invmmap_151222 (multimap: kulcs <-> ertek)
+        invmap_151218 (map: kulcs <-> ertek)
+        dir_120618
+        drs_100528
+    statisztikai osztaly (minimum-maximum) :
+        mmmap_120704
+        mmv_120627
+        sta_120613
+        stat_120611
+    biztonsagos osztaly :
+        str_120606
+        safevec_120530
+        svec_120116
+    kulonleges elem eltarolas (cache) :
+        cl_110621
+        mscv_110111
+        cvec_110105
+        cv_101222
+    pointer kezeleses :
+        amap_110614
+        as_110608
+        al_110531
+    korlatos struktura (meret / ido) :
+        contmap_111220
+        cset_091228
+        multi_091228
+        cm_091222
+        cs_091221
+    graf :
+        cg_080103
+        lg_080103
+        wg_071219
+        gr_071217
+    tobbszintu struktura :
+        mst_140630 (stack)
+        mls_120109 (halmaz)
+        pr_090523 (priority_queue)
+        ps_090518 (stack)
+    struktura megvalositas :
+        le_160617 (beviteli sor szerkeszto - line edit)
+        setseq_110623 (halmaz struktura szekvencialis kontenerrel)
+        uvmap_110118 (egyedi ertekeket tartalmazo map)
+        equ_100525 (ekvivalens elemtarolo map)
+        bidir_100521 (ketoldali map)
+        bdm_100517 (ketoldali map)
+        im_100103 (ketoldali map)
+        ms_090105 (halmaz / multihalmaz megvalositas) 
+        sq_081221 (stack / queue megvalositas)
+        sq_080605 (stack / queue megvalositas)
+        arr_080220 (n elemu tomb) (+ for_each_if fuggveny)
+        m_070114 (matrix) (+ slow_sort fuggveny)
+        as_070110 (asszociativ halmaz) (+ transform_if fuggveny)
+        n_bag_070103 (n darab zsak) (+ copy_if fuggveny)
+        arr_061215 (n elemu tomb) (+ for_each_if fuggveny)
+    rendezett struktura :
+        uv_150702 (rendezes ki-be kapcsolhato, funktor)
+        mset_120123
+        sl_080113
+        sl_070602
+        sv_070529
+        books_060217
+    hasheles (funktorral) :
+        hmap_060103
+        hash_051221
+
+3. fejezet :
+    csak tomb tarolas:
+        sav_161220
+    string / basic_string :
+        cistr_141219
+        vcstr_140530
+        rcs_130122
+        repstr_130115
+        palstr_130108
+        pstr_121218
+        str_120606
+    vector :
+        afv_160602 (tombre valo pointert kellett eltarolni)
+        spl_160104
+        uv_150702
+        fullfv_150119
+        ffvec_150112
+        ffv_150105
+        vcmvec_140623
+        pvec_140610
+        vcv_140526
+        fd_140113
+        fv_131216
+        mmv_120627
+        safevec_120530
+        svec_120116
+        mscv_110111
+        cvec_110105
+        cv_101222		
+        vv_090521
+        arr_080220
+        sv_070529
+        arr_061215
+        books_060217
+    matrix ( vector < vector > ):
+        pm_140127
+        pmatch_140120
+        match_140109
+        m_070114
+        hmap_060103
+        hash_051221
+    deque :    
+        pac_150529
+        aec_150521
+        mst_140630
+        pd_140616
+        dir_120618
+    map :
+        rav_160701
+        aa_160624
+        filtmap_160520
+        mapu_160126 /* REFERENCIAT KELLETT ELTAROLNI! */
+        mu_1160118 /* REFERENCIAT KELLETT ELTAROLNI! */
+        invmap_151218
+        mmmap_120704
+        contmap_111220 ( 2 map )
+        amap_110614
+        uvmap_110118
+        bidir_100521
+        bdm_100517
+        vm_100107
+        im_100103
+    multimap :
+        fmmap_160527
+        invmmap_151222
+    multihalmaz ( multiset ) :
+        sta_120613
+        mls_120109
+        multi_091228
+    lista (list) : 
+        cl_110621
+        al_110531
+        sl_080113
+        sl_070602
+    halmaz (set) :
+        as_110608
+        ms_090105 ( vagy multihalmaz )
+        as_070110
+    parameter alapjan :
+        le_160617
+        ad_160112 /* a 89. vizsgamegoldas. juheeeee */
+        pc_150625
+        si_150126
+        tm_130702
+        sm_130625
+        bstr_130129
+        stat_120611
+        mset_120123
+        setseq_110623
+        drs_100528
+        pr_090523 ( map < parameter > )
+        sq_081221
+        sq_080605 
+    tobb containerrel megoldott :
+        pq_150608 ( 3 deque )
+        predstack_150601 ( deque + vector )
+        tram_130618 ( matrix + map )
+        tam_130611 ( matrix + map )
+        sam_130604 ( matrix + map )
+        fam_130521 ( matrix + map )  
+        cset_091228 ( set + deque )
+        cm_091222 ( map + deque )
+        cs_091221 ( set + deque )
+        cg_080103 ( matrix + map (*2) )
+        lg_080103 ( map + set )
+        gr_071217 ( matrix + map )
+    beagyazott tobb tipussal :
+        predmset_150618 ( map < deque > )
+        equ_100525 ( map < set > )        
+        ps_090518 ( map < stack > )
+        am_081217 ( map < map > )
+        wg_071219 ( map < map > )
+        n_bag_070103 ( vector < map > )
